@@ -1,0 +1,41 @@
+* {
+  color: white;
+}
+.section-header {
+  background-color: #233d4d;
+}
+.section-footer {
+  text-align: center;
+  background-color: #619b8a;
+}
+.list-heading {
+  color: black;
+  font-weight: 300;
+}
+.list-form {
+  width: 20%;
+  position: relative;
+}
+
+.list-input {
+  background: rgb(161,193,129);
+  background: linear-gradient(90deg, rgba(161,193,129,1) 0%, rgba(0,237,255,1) 100%);
+  width: 100%;
+  border-radius: 4px;
+  height: 35px;
+  border: 0;
+}
+
+.add-button {
+  background: rgb(161,193,129);
+  background: linear-gradient(90deg, rgba(161,193,129,1) 0%, rgba(255,209,0,1) 100%);
+  border-radius: 4px;
+  height: 37px;
+  width: 50px;
+  border: 0;
+  
+  position: absolute;
+  top: 0;
+  right: -4px;
+  cursor: pointer;
+}

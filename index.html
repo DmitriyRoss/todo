@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <section class="section-header">
+        <h1 class="main-heading">ToDo List</h1>
+      </section>
+    </header>
+    <section class="section-list">
+      <h4 class="list-heading">Control Panel</h4>
+      <form class="list-form">
+        <input
+          id="input"
+          class="list-input"
+          type="text"
+          placeholder="Add new task"
+        />
+        <button id="add-btn" onclick="AddNewInput()" class="add-button">
+          Add
+        </button>
+      </form>
+    </section>
+    <section class="section-tasks">
+      <div class="grid">
+        <div id="inprogress" class="grid-item"></div>
+        <div id="done" class="grid-item"></div>
+      </div>
+    </section>
+    <footer>
+      <section class="section-footer">Created by Dmitriy Ross. 2022</section>
+    </footer>
+  </body>
+</html>
