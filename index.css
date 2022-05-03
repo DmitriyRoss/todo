@@ -12,6 +12,10 @@
   color: black;
   font-weight: 300;
 }
+.grid-heading {
+  color: black;
+  font-weight: 600;
+}
 .list-form {
   width: 20%;
   position: relative;
