@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <script defer src="index.js"></script>
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -24,15 +24,14 @@
           type="text"
           placeholder="Add new task"
         />
-        <button id="add-btn" onclick="AddNewInput()" class="add-button">
-          Add
-        </button>
+        <button type="button" id="add" class="add-button">Add</button>
       </form>
     </section>
     <section class="section-tasks">
       <div class="grid">
-        <div id="inprogress" class="grid-item">
+        <div class="grid-item">
           <h4 class="grid-heading">Tasks to Do</h4>
+          <div id="inprogress" class="adding">aaa</div>
         </div>
         <div id="done" class="grid-item"></div>
       </div>
@@ -40,5 +39,6 @@
     <footer>
       <section class="section-footer">Created by Dmitriy Ross. 2022</section>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
